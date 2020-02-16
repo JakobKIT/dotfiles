@@ -24,6 +24,9 @@ Plugin 'plasticboy/vim-markdown'
 " NerdTree on startup if no file params
 autocmd VimEnter * if !argc() | NERDTree | endif
 
+" Show dotfiles in NerdTree
+let NERDTreeShowHidden=1
+
 call vundle#end()
 " Turn on syntax highlighting
 let python_highlight_all=1
