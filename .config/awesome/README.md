@@ -32,23 +32,32 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 - (Optional) [xbacklight](https://www.x.org/archive/X11R7.5/doc/man/man1/xbacklight.1.html) for adjusting brightness on laptops (disabled by default)
 - (Optional) [kde-spectacle](https://kde.org/applications/utilities/org.kde.spectacle) my personal screenshot utility of choice, can be replaced by whichever you want, just remember to edit the screenshot utility script
 
-### 2) Clone the configuration
+### 2) Software used in Shortcuts
+- [GIMP](https://www.gimp.org) as graphic design tool - Arch install: gimp
+- [VIM](https://wiki.archlinux.org/index.php/Vim) As IDE and texteditor, should
+    be preinstalled - Arch install: vim
+- [Brave](https://brave.com/) browser - [AUR package](https://aur.archlinux.org/packages/brave-bin/)
+- [Discord](https://discordapp.com)Chat and community tool - Arch install:
+    discord
+- [Spotify](https://spotify.com) as music player - [AUR
+    package](https://aur.archlinux.org/packages/spotify/)
+- [Nautilus](https://wiki.archlinux.org/index.php/GNOME/Files) as file explorer - Arch install: nautilus
+- [Timeshift](https://github.com/teejee2008/timeshift) for backup management - [AUR
+    package](https://aur.archlinux.org/packages/timeshift/)
+
+### 3) Clone the configuration
 
 ```
-git clone https://github.com/ChrisTitusTech/material-awesome.git ~/.config/awesome
+git clone https://github.com/JakobKIT/dotfiles.git ~
 ```
 
-> Awesome 4.3 is so new that most of the distributions have not updated it yet. If you want to install this config on Awesome 4.2 (current version on depo) use the specific awesome-4.2 branch (not in development by me)
+> Awesome 4.3 is so new that most of the distributions have not updated it yet
 
-```
-git clone -b awesome-4.2 https://github.com/PapyElGringo/material-awesome.git ~/.config/awesome
-```
-
-### 3) Set the themes
+### 4) Set the themes
 Start **lxappearance** to active the **icon** theme and **GTK** theme
 Note: for cursor theme, edit `~/.icons/default/index.theme` and `~/.config/gtk3-0/settings.ini`, for the change to also show up in applications run as root, copy the 2 files over to their respective place in `/root`.
 
-### 4) Same theme for Qt/KDE applications and GTK applications, and fix missing indicators
+### 5) Same theme for Qt/KDE applications and GTK applications, and fix missing indicators
 First install `qt5-style-plugins` (or `qt5-style-gtk2`) and add this to the bottom of your `/etc/environment`
 
 ```bash
@@ -59,7 +68,7 @@ QT_QPA_PLATFORMTHEME=gtk2
 The first variable fixes most indicators (especially electron based ones!), the second tells Qt and KDE applications to use your gtk2 theme set through lxappearance.
 
 
-### 5) Read the documentation
+### 6) Read the documentation
 The documentation live within the source code.
 
 The project is split in functional directories and in each of them there is a readme where you can get additionnal informations about the them.
