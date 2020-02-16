@@ -336,7 +336,6 @@ bash_prompt
 unset bash_prompt
 
 
+alias config='/usr/bin/git --git-dir=/home/jakob/dotfiles --work-tree=/home/jakob'
 
 ### EOF ###
-
-alias config='/usr/bin/git --git-dir=/home/jakob/dotfiles --work-tree=/home/jakob'
