@@ -25,7 +25,8 @@ return {
     files = 'nautilus -w',
     music = 'spotify',
     lab = 'sudo timeshift-gtk',
-    graphics = 'gimp'
+    graphics = 'gimp',
+    email = 'thunderbird'
   },
   -- List of apps to start once on start-up
   run_on_start_up = {
