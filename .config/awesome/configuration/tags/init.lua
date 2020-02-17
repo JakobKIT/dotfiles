@@ -47,7 +47,7 @@ local tags = {
     screen = 1
   },
   {
-    icon = icons.lab,
+    icon = icons.email,
     type = 'email',
     defaultApp = apps.default.email,
     screen = 1
