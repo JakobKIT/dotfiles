@@ -17,15 +17,15 @@ local tags = {
     screen = 1
   },
   {
-    icon = icons.social,
-    type = 'social',
-    defaultApp = apps.default.social,
+    icon = icons.email,
+    type = 'email',
+    defaultApp = apps.default.email,
     screen = 1
   },
   {
-    icon = icons.game,
-    type = 'game',
-    defaultApp = apps.default.game,
+    icon = icons.brush,
+    type = 'graphics',
+    defaultApp = apps.default.graphics,
     screen = 1
   },
   {
@@ -41,15 +41,15 @@ local tags = {
     screen = 1
   },
   {
-    icon = icons.brush,
-    type = 'graphics',
-    defaultApp = apps.default.graphics,
+    icon = icons.social,
+    type = 'social',
+    defaultApp = apps.default.social,
     screen = 1
   },
   {
-    icon = icons.email,
-    type = 'email',
-    defaultApp = apps.default.email,
+    icon = icons.game,
+    type = 'game',
+    defaultApp = apps.default.game,
     screen = 1
   },
   {
