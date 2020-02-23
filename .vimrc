@@ -20,6 +20,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim'}
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'mattn/emmet-vim'
 
 " NerdTree on startup if no file params
 autocmd VimEnter * if !argc() | NERDTree | endif
@@ -160,4 +161,3 @@ let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 " put https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim
 " in ~/.vim/colors/ and uncomment:
-colorscheme solarized
